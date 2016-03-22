@@ -1,0 +1,125 @@
+edu.wpi.first.javadev.sunspotfrcsdk Change Log
+Worcester Polytechnic Institute
+Ryan O'Meara
+
+The sunspotfrcsdk plug-ins are intended to provide base functionality for the
+FRC Java Development system in Eclipse.
+
+
+1.0.6.6
+---------
+	- Maintenance
+		- Updated sunspotfrcsdk.zip file to version 4.14
+1.0.6.5
+---------
+	- Maintenance
+		- Updated sunspotfrcsdk.zip file to version 4.12
+		
+1.0.6.4
+---------
+	- Maintenance
+		- Updated sunspotfrcsdk.zip file to version 4.11
+		
+1.0.6.3
+---------
+	- Maintenance
+		- Updated sunspotfrcsdk.zip file to version 4.10
+		
+1.0.5.3
+---------
+	- Bug Fixes
+		- FIRSTForge Artifact 1320:  Exception is now caught and handled correctly when
+			install.xml file is not found
+			
+1.0.5.2
+---------
+	- Bug Fixes
+		- FRC Preference page no longer allows page switching if unapplied changes
+			remain
+		 
+1.0.5.1
+---------
+	- Bug Fixes
+		- Fixed issue with trying to run same thread twice
+		
+1.0.5.0
+---------
+	- Maintenance
+		- Updated the sunspotfrcsdk.zip file to version 4.9
+		
+1.0.4.9
+---------
+	- Improvements
+		- Extracted console output to separate plug-in to clean up implementation
+		
+1.0.4.8
+---------
+	- Bug Fixes
+		- FIRSTForge Artifact 1310: Project classpaths are now updated to point to the current
+			SDK in use, if they were using an SDK from a plug-in 
+1.0.4.7 
+---------
+	- Bug Fixes
+		- FIRSTForge Artifact 1307: The SDK re-installing now properly refreshes projects 
+			and rebuilds any FRCProjects that require it
+
+1.0.4.6
+---------
+	- Changes/Optimizations
+		- Changed installation and extraction of SDK to run in background, and print to 
+			FRC console
+
+1.0.3.6
+---------
+	- Bug Fixes
+		- FIRSTForge Artifact 1295: Changed to non-private launch, which seems to let 
+			launch trigger save if preference is set
+
+1.0.3.5
+---------
+	-Maintenance
+		-Upgraded the sunspotfrcsdk.zip to v4.8
+
+1.0.2.3
+---------
+	- Bug Fixes
+		- FIRSTForge Artifact 1293: Added termination of previous launches by finding and
+			stopping thread responsible
+
+	- Stability Improvements
+		- Added check for preverify file, classes.jar, and squawk_device.jar to better 
+			determine if re-install is required
+
+1.0.1.0
+---------
+	- Stability Improvements
+		- Changed launch setup to not create launch dialog which hangs by setting the launch
+			to run in the background
+
+1.0.0.0
+---------
+	- Initial Features
+		- Preference pages - main front page and sdk options
+			- option to not update
+			- option to unpack to alternate location
+			- option to use wpi library at a different location
+			- setting team number
+		- Reading from properties file
+			- sunspot home
+			- wpilibj home
+			- current version number
+			- archived version number
+		- Write new active WPILibJ to properties file
+		- Providing code to run ant files that are not visible in the workspace
+			- optional arguments
+			- optional targets
+		- Methods to access paths to standard file system locations
+			- WPILibJ class path entry
+			- SDK class path entry
+			- Eclipse root plugins directory
+			- Default extraction location for sdk
+			- Selected extraction location for sdk
+		- Method in plug-in to trigger update of SDK
+		- Extraction and installation of sdk
+			- Re-extract on location change
+			- Re-install on team number change

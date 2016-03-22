@@ -1,0 +1,34 @@
+edu.wpi.first.javadev.launching Change Log
+Worcester Polytechnic Institute
+Ryan O'Meara
+
+The launching plug-ins are intended to provide the functionality to build and deploy 
+FRC Java projects
+
+
+1.0.1.6
+--------
+	- Optimization
+		- Changed to use new install/extraction system of SDK
+	
+1.0.1.5
+--------
+	- Improvements
+		- Refined enablement of build and deploy shortcuts
+	
+1.0.1.2
+--------
+	- Bug Fixes
+		- Added terminating (and waiting for termination) of last launched process on new
+			launch, except for installation - that is "waited out" and the new job launched 
+			after it has completed
+	
+1.0.0.0
+--------
+	- Initial Functionality
+		- Launch shortcuts added for building and deploying
+
+
+
+
+

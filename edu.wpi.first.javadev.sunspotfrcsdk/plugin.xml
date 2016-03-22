@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         id="edu.wpi.first.javadev.sunspotfrcsdk.preferences.initializer"
+         name="%extension.name"
+         point="org.eclipse.core.runtime.preferences">
+      <initializer
+            class="edu.wpi.first.javadev.sunspotfrcsdk.preferences.PreferenceInitializer">
+      </initializer>
+   </extension>
+   <extension
+         id="edu.wpi.first.javadev.sunspotfrcsdk.preferencePages"
+         name="%extension.name.0"
+         point="org.eclipse.ui.preferencePages">
+      <page
+            class="edu.wpi.first.javadev.sunspotfrcsdk.preferences.FRCPreferencePage"
+            id="edu.wpi.first.javadev.sunspotfrcsdk.preferences.mainpage"
+            name="%page.name">
+      </page>
+      <page
+            category="edu.wpi.first.javadev.sunspotfrcsdk.preferences.mainpage"
+            class="edu.wpi.first.javadev.sunspotfrcsdk.preferences.SDKPreferencePage"
+            id="edu.wpi.first.javadev.sunspotfrcsdk.preferences.sdkpage"
+            name="%page.name.0">
+      </page>
+   </extension>
+
+</plugin>

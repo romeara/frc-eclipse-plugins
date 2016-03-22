@@ -1,0 +1,7 @@
+# This is the command line to squawk
+#fake out! another comment!
+# -suite:robot	-Xmxnvm:1M						-verbose -Xtgc:1 -stats 
+
+#default command line:
+#-suite:robot	-Xmxnvm:1M
+-suite:robot -Xmxnvm:1M	-verbose -Xtgc:1 -stats

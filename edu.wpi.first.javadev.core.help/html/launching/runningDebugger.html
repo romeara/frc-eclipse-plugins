@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<title>Running the Debugger</title>
+</head>
+
+<body>
+
+<img src="../FIRSTbanner.png" alt="FIRST Banner" width="700" height="120">
+
+<h1>Running the Debugger</h1>
+
+<p>To run an FRC Project in debug mode, first select the project and select "Debug As...->
+FRC Java Deploy".  This will launch the project in the same way deploy does, and additionally
+open the debug perspective.</p>
+
+<img src="images/DebugLaunch.png" alt="Launching in debug mode" width="651" height="490">
+
+<p>Once the debug perspective is open, select "Debug Configurations..." from the Debug toolbar.</p> 
+
+<img src="images/DebugConfigurations.png" alt="Creating a debug configuration" width="651" height="524">
+
+<p>Select "Remote Java Application" from the left side menu and click "New".  You will be presented 
+with a window asking for a project, connection type, host, and port.  The project should be the 
+proejct you launched.  The connection type is "Standard (Socket Attach)".  The host is "localhost".
+The port is usually 2900 - to check this, look at your console window, there should be an output
+saying "trying to connect on port 2900", or another number.  if the number is different, use it
+instead of 2900.  The should be something which indicates that this is the debug connection for
+the project you are launching - each project will need its own.</p>
+
+<img src="images/DebugConfigSetup.png" alt="Creating a debug configuration dialog box" width="600" height="480">
+
+<p>Once those fields are properly filled in, click "Debug".  The configuration will launch and connect
+to the cRio.  In the future, if you wish to debug the same project, the configuration you created will
+appear under "Remote Java Application" in the "Debug Configurations..." dialog box, as shown below.</p>
+
+<img src="images/CompleteDebugConfig.png" alt="Created debug configuration" width="728" height="536">
+
+</body>
+
+
+</html>

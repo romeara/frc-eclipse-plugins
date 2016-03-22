@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/edu.wpi.first.javadev.feature.core_1.0.8.5.jar" id="edu.wpi.first.javadev.feature.core" version="1.0.8.5">
+      <category name="edu.wpi.first.javadev.site.stable.category"/>
+   </feature>
+   <category-def name="edu.wpi.first.javadev.site.stable.category" label="FRC Java Development Tools">
+      <description>
+         Tools to develop Java code for the FIRST Robotics Competition
+      </description>
+   </category-def>
+</site>

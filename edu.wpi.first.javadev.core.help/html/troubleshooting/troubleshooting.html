@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<title>Troubleshooting</title>
+</head>
+
+<body>
+<img src="../FIRSTbanner.png" alt="FIRST Banner" width="700" height="120">
+<h1>Troubleshooting</h1>
+
+<p>Common problems and solutions encountered when using the FRC Java Development Plug-ins </p>
+<table border="1">
+<tr>
+<th>&nbspSymptom&nbsp</th>
+<th>&nbspSolution&nbsp</th>
+</tr>
+<tr>
+<td>Install Output displays Error <span style="color:red">"Attempting to install tools on currently unsupported platform"</span></td>
+<td>FRC Java Development Tools must be installed on Windows, Mac, Linux, or Solaris to function correctly.</td>
+</tr>
+<tr>
+<td>Install Output displays Error <span style="color:red">"Error running javac.exe compiler"</span></td>
+<td>Eclipse is currently pointing to a JRE instead of a JDK.  See <a href="settingupJDK.html">Setting up Eclipse with a JDK</a> for instructions on setting Eclipse 
+to use a JDK. (A JDK is not the default on Windows and Linux systems)</td>
+</tr>
+<tr>
+<td>Robot projects can't find base Java classes (non-WPILibJ classes)</td>
+<td>The .sunspot.properties file is missing from the expected location.  The most reliable way to 
+fix this is trigger an install, which can be done be clicking "Apply" on the FRC Java Dev preference page</td>
+</tr>
+<tr>
+<td>Robot projects can't find WPILibJ classes</td>
+<td>WPILibJ is not in the designated place (specifically the classes.jar file)  Make sure that classes.jar
+is in the directory designated by the WPILibJ directory in the FRC Java Dev preference page</td>
+</tr>
+<tr>
+<td>Robot projects can't find standard classes</td>
+<td>The SDK is not in the designated place (specifically the squawk_device.jar file)  Make sure that squawk_device.jar
+is in the directory designated by the SDK directory in the FRC Java Dev->SunspotSDK preference page</td>
+</tr>
+<tr>
+<td>Deploying to the robot fails</td>
+<td>First, check that your connection is setup correctly, the robot is on, and that it is setup to use Java. 
+If you previously deployed successfully, the port may not have released.  First, try 
+<a href="endingProcesses.html">terminating the process</a>.  If this does not solve the problem, exit Eclipse 
+and reset your cRIO.  This problem occurs when something prevents Eclipse from automatically terminating the last deploy.</td>
+</tr>
+<tr>
+<td>There are errors displayed with WPILibJ or standard imports and classes</td>
+<td>First, try refreshing the project (click on it in the package explorer view and press f5).
+If this does not solve the issue, delete the sunspotfrcsdk folder from the plug-in folder called
+edu.wpi.first.javadev.sunspotfrcsdk<version> and restart eclipse.  You will see output in the console
+indicating the SDK is being extracted and installed.  Once "BUILD SUCCEEDED" is shown in the console, 
+repeat the first step of refreshing the project.</td>
+</tr>
+</table>
+
+<p>If you believe you have encountered a bug, please take the time to <a href="reportingBugs.html">report</a> 
+it.</p>
+</body>
+</html>

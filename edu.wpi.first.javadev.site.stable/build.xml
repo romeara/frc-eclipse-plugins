@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><project default="signJars">
+
+	<target name="signJars" 
+	          description="Signs the jars with the FRC Certificate">
+	    <signjar
+	    	alias="frceclipsecert" keystore="frcKeystore"
+	    	storepass="frcjavadev"
+	    	lazy="false"
+	    	verbose="true">
+	  		<path>
+	  			<fileset dir="plugins" includes="**/*.jar"/>
+	  			<fileset dir="features" includes="**/*.jar"/>
+	 		 </path>
+		</signjar>
+	  </target>
+</project>

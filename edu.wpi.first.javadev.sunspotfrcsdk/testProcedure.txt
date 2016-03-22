@@ -1,0 +1,21 @@
+edu.wpi.first.javadev.sunspotfrcsdk Test Procedure
+
+
+	- Check that there are two preference pages available, the main page and the SDK
+		preference page.
+		
+	- Re-install of SDK should be triggered:
+		- When the plug-in is updated (new install location)
+		- When the team number is updated
+		- When a different Eclipse install or NetBeans was run since the current Eclipse
+			install was last run (install location in preferences does not match location
+			indicated by properties file)
+			
+	- If there were existing FRC Projects and the library was removed (causing errors),
+		then the library should re-install.  Following the install:
+			- Package View and Editor should refresh and stop showing errors caused by
+				missing library
+			- Any builder views open should refresh
+			
+	- Following a re-install, any projects which were using a library from an older version
+		of the plug-ins should be updated to use the newer version

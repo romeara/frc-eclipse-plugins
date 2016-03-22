@@ -1,0 +1,51 @@
+edu.wpi.first.javadev.builder Test Procedure
+
+
+	- Should be able to use views.  They should construct correctly both when 
+		opened after eclipse is started or when they were open when eclipse started
+    
+  	- The views should display a robot project when opened if an open robot 
+		project is available
+  
+  	- If no open robot project is available, the views should display a no 
+		robot message
+  
+  	- If the active project is closed, the views should switch to an open robot 
+		project, or no robot message if no project is available
+  
+  	- When a robot project is open, the views should switch to display it
+  
+    - If the active project is deleted, the views should switch to another open 
+		robot project, or display no robot messages if none is available
+  
+  	- When a project is created, the views should switch to display it
+  
+  	- Clicking with the selected click scheme should navigate to the clicked 
+		element(defining field in the case of devices).  The click scheme is set in 
+		eclipse preferences, and can be either single or double click
+  
+  	- Should be able to add elements via the toolbar and context menus
+  
+  	- Context menus should only allow certain operations.  WPILibJ devices in the 
+  		tree should not allow the addition of elements or class renaming.  Robots 
+  		should not be removable.
+  
+  	- Categories under devices and mechanisms should allow context menu adding 
+		of the element they are storing
+  
+  	- Dragging devices into the RoboCentric view from the Device Palette should 
+  		add the device where dropped
+  
+  	- Dragging elements from either tree should add expected code to the editor 
+		where dropped
+  
+  	- Views should respond to changes in the editor
+  
+  	- Creating a device should cause the device to appear in the Palette view 
+		under the "devices" heading
+  
+  	- Any circular referenced devices should not show children, aka if device A 
+		has a field of type Device B, and Device B has a field of type Device A, 
+		then Device B's child of type Device A should not show its children - it 
+		should only show that it exists in device b
+	

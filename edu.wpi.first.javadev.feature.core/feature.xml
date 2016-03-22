@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="edu.wpi.first.javadev.feature.core"
+      label="FRC Java Development Core"
+      version="1.0.8.5"
+      provider-name="Worcester Polytechnic Institute"
+      plugin="edu.wpi.first.javadev.sunspotfrcsdk">
+
+   <description>
+      Core toolset for FRC robot software using Java
+
+Plugins that provide tools to program the FIRST Robotics Competition
+cRIO in Java.  Includes ability to create new simple and iterative
+robot projects, sample projects, and correctly modify the manifest
+using Eclipse&apos;s integrated refactoring tools.  Also includes
+launchintegration, with shortcuts to build, run, and debug FRC
+Java projects. Includes a preference page to set team number
+and file locations, as well as help content.
+   </description>
+
+   <copyright>
+      * Copyright (c) 2009-2012 FIRST
+* All rights reserved.
+   </copyright>
+
+   <license>
+      * Copyright (c) 2009 - 2012 FIRST
+* All rights reserved.
+*
+* Redistribution and use in source and binary forms, with or
+* without modification, are permitted provided that the following
+* conditions are met:
+* Redistributions of source code must retain the above
+* copyright notice, this list of conditions and the following
+* disclaimer. Redistributions in binary form must reproduce the
+* above copyright notice, this list of conditions and the following
+* disclaimer in the documentation and/or other materials provided
+* with the distribution. Neither the name of the FIRST nor the
+* names of its contributors may be used to endorse or promote
+* products derived from this software without specific prior
+* written permission.
+*
+* THIS SOFTWARE IS PROVIDED BY FIRST AND CONTRIBUTORS``AS IS&apos;&apos;
+* AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED
+* TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY NONINFRINGEMENT
+* AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
+* EVENT SHALL FIRST OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+* INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+* DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
+* GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+* INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+* WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+* OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
+* EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.debug.ui" version="3.6.1" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jdt.core" version="3.6.1" match="greaterOrEqual"/>
+      <import plugin="edu.wpi.first.javadev.sunspotfrcsdk" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.ide"/>
+      <import plugin="org.eclipse.ltk.core.refactoring" version="3.5.100" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.debug.core" version="3.6.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jdt.ui" version="3.6.1" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ant.launching" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ant.ui" version="3.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.console" version="3.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.externaltools" version="1.0.1" match="greaterOrEqual"/>
+      <import plugin="edu.wpi.first.codedev.output" version="1.0.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="edu.wpi.first.javadev.launching"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="edu.wpi.first.javadev.projects"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+   <plugin
+         id="edu.wpi.first.javadev.sunspotfrcsdk"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+   <plugin
+         id="edu.wpi.first.javadev.core.help"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="edu.wpi.first.codedev.output"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="edu.wpi.first.javadev.model"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+</feature>

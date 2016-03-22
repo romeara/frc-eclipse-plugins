@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+
+<toc label="Projects">
+	<topic label="Projects"  href="html/projects/projects.html"> 
+		<topic label="Creating a Robot Project" href="html/projects/standard.html"/>
+  <topic href="html/projects/samples.html" label="Creating a Sample Project">
+  </topic> 
+	</topic>
+</toc>

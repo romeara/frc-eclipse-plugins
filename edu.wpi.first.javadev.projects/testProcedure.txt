@@ -1,0 +1,8 @@
+edu.wpi.first.javadev.projects Test Procedure
+
+
+	- When selecting New->Project, there should be two FRC Folders, one for base projects
+		and one for sample projects
+	- All projects should be creatable without issue or errors
+	- Refactor renaming the robot package or class should apply the rename to the manifest 
+		file under resources in the associated project

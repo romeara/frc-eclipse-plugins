@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+
+<toc label="Preferences">
+	<topic label="Preferences"  href="html/preferences/preferences.html"> 
+		<topic label="Main Preference Page" href="html/preferences/mainprefpage.html"/>
+  <topic href="html/preferences/sdkprefpage.html" label="SDK Preference Page">
+  </topic> 
+	</topic>
+</toc>

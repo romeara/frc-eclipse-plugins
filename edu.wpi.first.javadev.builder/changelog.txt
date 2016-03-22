@@ -1,0 +1,209 @@
+edu.wpi.first.javadev.builder Change Log
+Worcester Polytechnic Institute
+Joseph Grinstead, Ryan O'Meara
+
+The builder plug-ins are intended to provide advanced tools to assist several levels of
+code developers write Java programs for the FRC platform
+
+
+1.0.7.8
+--------
+	- Bug Fixes
+		- Fixed wrong method being called during reconcile causing infinite loop under 
+			certain (rare) conditions
+		
+1.0.7.6
+--------
+	- Bug Fixes
+		- FIRSTForge Artifact 1303:  Model creation was sped up by multi-threading.  View
+			creation for the robot model was also multi-threaded, but runnable locks prevent
+			the same from being done in the library view model
+1.0.6.6
+--------
+	- Improvements
+		- Changed to utilize workspace output plug-in
+		
+1.0.6.5
+--------
+	- Bug Fixes
+		- FIRSTForge Artifact 1222:  Capability wizard now checks if entered return type
+			and parameter types exist in the project (if they are not primitives) 
+		
+1.0.6.4
+--------
+	- Bug Fixes
+		- Fixed issue where containers and robot did not override canModify as they should
+		- FIRSTForge Artifact 1284: Error and warning dialogs appear when they would be
+			expected to 
+			
+1.0.6.3
+---------
+	- Bug Fixes
+		- FIRSTForge Artifact 1308: Views now no longer show invalid context menu options.
+			Elements are now checked for modify permissions
+		- FIRSTForge Artifact 1252: Filters being selected now unselects all other filters
+			and applies to the view correctly
+
+1.0.6.2
+---------
+	- Stability/Optimization
+		- Changed to correctly use SDK extract/install, and fix view if model failed to
+			properly construct project and setup was fixed
+	
+1.0.6.1
+---------
+	- Stability/Optimization
+		- Placeholders now work correctly.  Circular referencing of Devices will not crash 
+			the views
+	
+1.0.6.0
+---------
+	- Bug Fixes
+		- FIRSTForge Artifact 1225: Refactor renaming makes view update correctly.  
+			Elements can be renamed through the views or by standard methods, and the
+			model will refresh itself correctly
+
+1.0.5.9
+---------
+	- Bug Fixes
+		- FIRSTForge Artifact 1249: Dragging Devices from device palette into editor now 
+			adds the correct import
+		- FIRSTForge Artifact 1296: Devices which come from class files now only display 
+			public members
+	- Stability/Optimization
+		- FRCProject now updates and creates elements if they didn't previously exist 
+			correctly
+		
+v1.0.5.6
+---------
+	- Bug Fixes
+		- Double Clicking device now brings user to the the field declaration correctly	
+	
+1.0.5.5
+---------
+	- Bug Fixes	
+		- FIRSTForge Artifact 1285: Disable and Enable now accounts for view elements with no 
+			associated element correctly when computing enabled state
+	
+1.0.5.4
+---------
+	- Bug Fixes
+		- FIRSTFoge Artifact 1214, 1288: Opening, closing, adding, and deleting projects now 
+			trigger switching of active project correctly	
+	
+1.0.4.4
+---------
+	- Bug Fixes
+		- FIRSTForge Artifact 1217: Can now remove elements using the RoboCentric view from
+			both the tool bar and context menu
+	
+1.0.4.3
+---------
+	- Improvements
+		- Icons disable/enable more logically
+		- Fields have visibility options when added 
+	
+	- Bug Fixes
+		- FIRSTForge Artifact 1283: Container view elements are valid context menu targets
+		- FIRSTForge Artifact 1216: Devices and capabilities can be added to modifiable 
+			devices (ones derived from compilation units)	
+	
+1.0.4.1
+---------
+	- Stability/Optimization
+		- When devices from the palette are dragged into the editor, instead of displaying 
+			null, a new field is added.
+	
+1.0.4.0
+---------
+	- Stability/Optimization
+		- Tree now displays user created devices which are created manually (without being
+			immeadiately added to the robot) and multiple instances of the same class in the
+			tree reflect changes made with the editor closed using the views
+	
+1.0.3.8
+---------
+	- Stability/Optimization
+		- Tree now does not display interfaces, and shows user created devices	
+	
+1.0.3.6
+---------
+	- Bug Fixes
+		- Tree now allows adding to sub mechanisms	
+	
+1.0.3.5
+---------
+	- Improvements
+		- Tree expands to level of added elements	
+
+1.0.3.0
+---------
+	- Stability/Optimization/Improvements
+		- New model being used, addition and drag in of devices/mechanisms works
+			correctly, live parsing of robot tree works correctly
+
+1.0.1.9
+---------
+	- Bug Fixes
+		- Code fragments now use correct names when dragged into the code editor
+	
+1.0.1.7
+---------
+	- Bug Fixes
+		- Changed creation of display objects for methods to use parent's name in 
+			code fragment instead of random place holder	
+					
+1.0.1.6
+---------
+	- Improvements
+		- Changed display names for devices/mechanisms to be more descriptive
+	
+1.0.1.3
+---------
+	- Bug Fixes
+		- Changed initial project loader to correctly handle null case	
+			
+1.0.1.2
+---------  
+	- Improvements
+		- Ability to add devices and mechanisms with default names
+		- Ability to add custom functions (capabilities)
+		- Live parsing robot tree
+		- Ability to drag and drop code into the editor window from the tree view
+		- Able to double click on items in tree to open in editor
+
+
+	
+
+	
+
+
+
+	
+
+		
+
+	
+
+	
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+	

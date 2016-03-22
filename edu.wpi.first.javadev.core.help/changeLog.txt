@@ -1,0 +1,10 @@
+edu.wpi.first.javadev.core.help Change Log
+Worcester Polytechnic Institute
+Ryan O'Meara
+
+
+
+1.0.1.8
+--------
+	- Initial Features
+		- Help docs for preference pages, launching, debugging, and creating projects

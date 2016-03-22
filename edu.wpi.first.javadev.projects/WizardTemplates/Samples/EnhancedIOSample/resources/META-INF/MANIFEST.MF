@@ -1,0 +1,6 @@
+MIDlet-Name: EnhancedIOSample
+MIDlet-Version: 1.0.0
+MIDlet-Vendor: FIRST
+MIDlet-1: EnhancedIOSample, , edu.wpi.first.wpilibj.samples.EnhancedIOSample
+MicroEdition-Profile: IMP-1.0
+MicroEdition-Configuration: CLDC-1.1

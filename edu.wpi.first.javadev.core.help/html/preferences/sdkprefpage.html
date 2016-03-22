@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<title>SDK Preference Page</title>
+</head>
+
+<body>
+
+<img src="../FIRSTbanner.png" alt="FIRST Banner" width="700" height="120">
+
+<h1>SDK Preference Page</h1>
+
+<p>The SDK preference page is used to configure options relating to the Java libraries
+and WPILibJ.</p>
+
+<img src="images/FRCSDKPref.png" alt="FRC SDK Preference Page" width="919" height="415">
+
+<p>The first option allows the user to disallow updates, which is not recommended.
+Only use this if you wish to save on disk space</p>
+
+<p>The second set of options allows the user to install the SDK to a 
+non-standard location.  The new location must exist, and Eclipse must have
+write permissions for it.</p>
+
+<p>The third set of options allows the user to specify a non-standard version of
+WPILibJ.  This is useful if you have a local, modified copy which you wish to
+use instead of the standard one.</p>
+
+<p>The SDK and WPILibJ options will only take effect for new projects; you must
+manually change the properties of existing projects if you wish to change which
+libraries you use.  Be warned, changing the SDK location after creating a project
+may also break current projects, as the old SDK location will be cleared to prevent
+unnecessary duplicates.  This can be fixed by manually changing the class path of the 
+project to the new location </p>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+
+<toc label="FRC Java Development Tools" topic="html/frontpage.html">
+	<link toc="projectsToc.xml" />
+ <link toc="launchingToc.xml"/>
+ <link toc="preferencesToc.xml"/>
+ <link toc="troubleshootingToc.xml"/>
+ <topic href="html/javadoc/help-doc.html" label="WPILibJ Reference">
+ </topic>
+</toc>

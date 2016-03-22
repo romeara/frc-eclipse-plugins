@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+
+<toc label="Launching">
+	<topic label="Launching"  href="html/launching/launching.html">
+    <topic href="html/launching/runningDebugger.html" label="Running the Debugger">
+    </topic> 
+	</topic>
+</toc>

@@ -1,0 +1,63 @@
+edu.wpi.first.javadev.project Change Log
+Worcester Polytechnic Institute
+Joseph Grinstead, Ryan O'Meara
+
+The projects plug-ins provide project creation and identification of FRC projects
+
+
+
+1.0.1.8
+--------
+	- Optimization
+		- Changed to use new SDK install/extraction system
+	
+1.0.1.7
+--------
+	- Optimization
+	- Added enablement to manifest rename, participant will only execute on FRC projects, 
+		and forces plug-in activation
+	
+1.0.1.6
+--------
+	- Improvements
+		- Extracted manifest rename code to separate class to be accessible to the builder
+			plug-in
+			
+1.0.1.5
+--------
+	- Maintenance
+		- Added Line Tracker Demo
+	
+1.0.1.3
+--------
+	- Improvements
+		- Added FRC Perspective extension point
+	
+1.0.0.3
+--------
+	- Improvements
+		- Added incremental project builder to link into Eclipse default build command
+	
+1.0.0.1
+--------
+	- Bug Fixes
+		- Fixed small bug causing incorrect default package name 	
+				
+1.0.0.0
+--------
+	- Initial Functionality
+		- Refactoring which includes correctly changing names in the manifest file
+		- Project nature which handles src and build directories, as well as 
+			included libraries
+		- Simple Robot Wizard which allows creation of SimpleRobot based projects
+		- Iterative robot wizard which allows creation of IterativeRobot based 
+			projects
+		- Sample project creation for circle tracker, dash board, default code,
+			enhanced io, and tracker
+
+	
+
+	
+
+
+	

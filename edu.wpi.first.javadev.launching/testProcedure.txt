@@ -1,0 +1,18 @@
+edu.wpi.first.javadev.launching Test Procedure
+
+
+	- When a project is right clicked, and Run As is selected, there should be options 
+		to run an FRC Java Build or FRC Java Deploy.  When Debug As is selected, there 
+		should be an option to run a FRC Java Deploy.
+  
+  	- When the active editor window contains a java file in an FRC project, the 
+		toolbar Run As and Debug As options should also contained the above mentioned options
+  
+  	- Running an FRC java build should start a build which is visible in the console
+  
+  	- An FRC Deploy should build then attempt to connect to the cRIO, download the code, 
+  		and show the run output
+  
+  	- When run as debug, should be the same as when run as deploy, except following the
+  		steps detailed in the help about setting up a debug should allow using breakpoints 
+  		and observing variables

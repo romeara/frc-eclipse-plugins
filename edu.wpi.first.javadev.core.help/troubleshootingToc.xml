@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+
+<toc label="Troubleshooting">
+	<topic label="Troubleshooting"  href="html/troubleshooting/troubleshooting.html">
+    <topic href="html/troubleshooting/settingupJDK.html" label="Setting up Eclipse with a JDK">
+    </topic>
+    <topic href="html/troubleshooting/endingProcesses.html" label="Ending Processes">
+    </topic>
+    <topic href="html/troubleshooting/reportingBugs.html" label="Reporting Bugs">
+    </topic> 
+	</topic>
+</toc>

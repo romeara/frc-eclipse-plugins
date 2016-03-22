@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/edu.wpi.first.cppdev.feature_1.0.0.3.jar" id="edu.wpi.first.cppdev.feature" version="1.0.0.3">
+      <category name="edu.wpi.first.cppdev.site.stable.category"/>
+   </feature>
+   <category-def name="edu.wpi.first.cppdev.site.stable.category" label="FRC Cpp Development Tools"/>
+</site>
